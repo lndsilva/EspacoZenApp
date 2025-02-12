@@ -30,6 +30,9 @@
             android:src="@drawable/logo_zen" />
 
         <TextView
+            android:shadowColor="#CCB08B"
+            android:shadowRadius="1"
+            android:textStyle="bold"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
@@ -37,6 +40,6 @@
             android:fontFamily="@font/lexend"
             android:text="Espaço Zen"
             android:textColor="#FF9800"
-            android:textSize="30sp" />
+            android:textSize="35sp" />
     </LinearLayout>
 </LinearLayout>
