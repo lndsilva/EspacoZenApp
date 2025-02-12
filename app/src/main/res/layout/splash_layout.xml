@@ -13,7 +13,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
         android:layout_marginBottom="5dp"
-        android:indeterminate="true" />
+        android:indeterminate="true"
+        app:indicatorColor="#F88800"
+        app:trackColor="#CCB08B" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -28,13 +30,13 @@
             android:src="@drawable/logo_zen" />
 
         <TextView
-            android:textColor="#FF9800"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_margin="20sp"
             android:fontFamily="@font/lexend"
             android:text="Espaço Zen"
+            android:textColor="#FF9800"
             android:textSize="30sp" />
     </LinearLayout>
 </LinearLayout>
