@@ -5,23 +5,36 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center_vertical"
     android:orientation="vertical"
     tools:context=".SplashActivity">
 
-    <ImageView
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:layout_gravity="center_horizontal"
-        android:src="#2c2c2c" />
-
-    <TextView
-        android:layout_width="wrap_content"
+    <com.google.android.material.progressindicator.LinearProgressIndicator
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_margin="20sp"
-        android:fontFamily="@font/lexend"
-        android:text="Espaço Zen"
-        android:textSize="30sp" />
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:indeterminate="true" />
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/logo_zen" />
+
+        <TextView
+            android:textColor="#FF9800"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="20sp"
+            android:fontFamily="@font/lexend"
+            android:text="Espaço Zen"
+            android:textSize="30sp" />
+    </LinearLayout>
 </LinearLayout>
