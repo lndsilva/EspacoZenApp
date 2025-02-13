@@ -52,15 +52,17 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
+        android:id="@+id/lblEsqueceuSenha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="end"
         android:layout_marginTop="10dp"
-        android:text="Não tem cadastro?"
+        android:text="Esqueceu sua senha?"
         android:textColor="#000"
         android:textSize="18sp" />
 
     <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnEntrar"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_marginTop="40dp"
@@ -69,11 +71,12 @@
         android:textSize="20dp" />
 
     <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnCadastrarSe"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_marginTop="20dp"
-        android:text="Cadastre-se"
         android:backgroundTint="#3F51B5"
+        android:text="Cadastre-se"
         android:textSize="20dp" />
 
 </LinearLayout>
