@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="200dp"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_margin="10dp">
 
     <LinearLayout
@@ -12,10 +12,11 @@
 
         <androidx.cardview.widget.CardView
             android:layout_width="150dp"
-            app:cardCornerRadius="20dp"
-            android:layout_height="180dp">
+            android:layout_height="180dp"
+            app:cardCornerRadius="20dp">
 
             <ImageView
+                android:id="@+id/imgMeditacao"
                 android:layout_width="150dp"
                 android:layout_height="180dp"
                 android:layout_margin="5dp"
@@ -28,16 +29,19 @@
             android:orientation="vertical">
 
             <TextView
+                android:id="@+id/txtTitulo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Para repousar" />
 
             <TextView
+                android:id="@+id/txtSubTitulo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Meditação - 10 minutos" />
 
             <TextView
+                android:id="@+id/txtOrientacao"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/meditar_texto"

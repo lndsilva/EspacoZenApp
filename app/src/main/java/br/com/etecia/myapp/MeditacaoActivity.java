@@ -8,7 +8,11 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import java.util.List;
+
 public class MeditacaoActivity extends AppCompatActivity {
+
+    private List<Meditacao> lstMeditacao;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,5 +24,7 @@ public class MeditacaoActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
+        AdapterMeditacao adapterMeditacao = new AdapterMeditacao(getApplicationContext(),lstMeditacao);
     }
 }

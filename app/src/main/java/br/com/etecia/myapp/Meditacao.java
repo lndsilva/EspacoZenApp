@@ -1,37 +1,38 @@
 package br.com.etecia.myapp;
 
 public class Meditacao {
-    private String nome;
-    private String tempo;
+    private String titulo;
+    private String subtitulo;
     private String orientacao;
     private int imgMeditacao;
 
     //criando o construtor - alt+insert escolha construtor e selecione todas as variaveis
 
-
-    public Meditacao(String nome, String tempo, String orientacao, int imgMeditacao) {
-        this.nome = nome;
-        this.tempo = tempo;
+    public Meditacao(String titulo, String subtitulo, String orientacao, int imgMeditacao) {
+        this.titulo = titulo;
+        this.subtitulo = subtitulo;
         this.orientacao = orientacao;
         this.imgMeditacao = imgMeditacao;
     }
+
+
     //criando os métodos get e set - alt+insert selecione getters and setters
 
 
-    public String getNome() {
-        return nome;
+    public String getTitulo() {
+        return titulo;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
     }
 
-    public String getTempo() {
-        return tempo;
+    public String getSubtitulo() {
+        return subtitulo;
     }
 
-    public void setTempo(String tempo) {
-        this.tempo = tempo;
+    public void setSubtitulo(String subtitulo) {
+        this.subtitulo = subtitulo;
     }
 
     public String getOrientacao() {
