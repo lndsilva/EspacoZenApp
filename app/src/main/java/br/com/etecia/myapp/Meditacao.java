@@ -15,4 +15,38 @@ public class Meditacao {
         this.orientacao = orientacao;
         this.imgMeditacao = imgMeditacao;
     }
+    //criando os métodos get e set - alt+insert selecione getters and setters
+
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public String getTempo() {
+        return tempo;
+    }
+
+    public void setTempo(String tempo) {
+        this.tempo = tempo;
+    }
+
+    public String getOrientacao() {
+        return orientacao;
+    }
+
+    public void setOrientacao(String orientacao) {
+        this.orientacao = orientacao;
+    }
+
+    public int getImgMeditacao() {
+        return imgMeditacao;
+    }
+
+    public void setImgMeditacao(int imgMeditacao) {
+        this.imgMeditacao = imgMeditacao;
+    }
 }
