@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Espaço Zen</string>
+    <string name="cadastro_usuario"><u>Cadastro</u></string>
+    <string name="insira_seu_nome">Insira seu nome</string>
 </resources>
