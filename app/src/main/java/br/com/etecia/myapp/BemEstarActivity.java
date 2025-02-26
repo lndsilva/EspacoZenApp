@@ -35,6 +35,7 @@ public class BemEstarActivity extends AppCompatActivity {
 
         viewPager2.setAdapter(adapterBemEstar);
 
+
         tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
             public void onTabSelected(TabLayout.Tab tab) {
@@ -51,6 +52,7 @@ public class BemEstarActivity extends AppCompatActivity {
 
             }
         });
+
         viewPager2.registerOnPageChangeCallback(new ViewPager2.OnPageChangeCallback() {
             @Override
             public void onPageSelected(int position) {
