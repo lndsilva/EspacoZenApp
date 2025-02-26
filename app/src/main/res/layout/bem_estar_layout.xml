@@ -14,16 +14,19 @@
         android:layout_height="wrap_content">
 
         <com.google.android.material.tabs.TabItem
+            android:id="@+id/tbItemMeditacao"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Meditação" />
 
         <com.google.android.material.tabs.TabItem
+            android:id="@+id/tbItemMusicas"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Músicas" />
 
         <com.google.android.material.tabs.TabItem
+            android:id="@+id/tbItemZazen"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Zazen" />
