@@ -6,15 +6,16 @@
     android:orientation="vertical"
     tools:context=".MeditarFragment">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Meditar" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10sp"
+        android:fontFamily="@font/lexend"
+        android:text="@string/escolha_seu_tipo_de_medita_o"
+        android:textColor="#00BCD4"
+        android:textSize="18sp"
+        android:textStyle="bold" />
 
-    <ImageView
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:src="#2c2c2c" />
 
 </LinearLayout>

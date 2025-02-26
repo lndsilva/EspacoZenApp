@@ -5,4 +5,5 @@
     <string name="meditar_texto">Feche os olhos, respire profundamente 3 vezes, relaxe seu corpo e acomode-o confortavelmente sentado. Mantenha a atenção na sua respiração, no ar novo que entra (e como entra) e no ar velho que sai (e como sai). Reflita sobre as sensações trazidas e mantenha todo o tempo sua mente ocupada com esta tarefa.</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="escolha_seu_tipo_de_medita_o">Escolha seu tipo de meditação</string>
 </resources>
