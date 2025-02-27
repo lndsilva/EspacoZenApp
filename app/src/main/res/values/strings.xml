@@ -6,4 +6,6 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="escolha_seu_tipo_de_medita_o">Escolha seu tipo de meditação</string>
+    <string name="medita_o_zazen">Meditação Zazen</string>
+    <string name="titulo_zazen">Nesse tipo, a pessoa concentra em um princípio minimalista para alcançar a tranquilidade. Logo, nas salas em que são praticadas não há objetos, as paredes são em cores neutras e tem a presença de um silêncio absoluto. Na meditação zen, a postura e a respiração são o foco. Ainda, a postura deve ficar com a coluna reta enquanto a pessoa está sentada em uma cadeira, banco ou almofada. As mãos devem ficar uma em cima da outra e as pernas cruzadas. O foco é a respiração natural e relaxada</string>
 </resources>

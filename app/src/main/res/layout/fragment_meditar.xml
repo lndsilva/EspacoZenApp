@@ -13,9 +13,11 @@
         android:layout_margin="10sp"
         android:fontFamily="@font/lexend"
         android:text="@string/escolha_seu_tipo_de_medita_o"
-        android:textColor="#00BCD4"
+        android:textColor="#26303A"
         android:textSize="18sp"
         android:textStyle="bold" />
+
+    <include layout="@layout/modelo_meditar_fragment" />
 
 
 </LinearLayout>

@@ -1,8 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="200dp"
+    android:layout_margin="10dp"
+    app:cardBackgroundColor="#009688">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/mulher_meditando" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/lexend"
+                android:text="@string/medita_o_zazen"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="158dp"
+                android:padding="5sp"
+                android:text="@string/titulo_zazen"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="10dp" />
+        </LinearLayout>
+    </LinearLayout>
 
 
 </androidx.cardview.widget.CardView>
