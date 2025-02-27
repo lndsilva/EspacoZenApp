@@ -17,7 +17,11 @@
         android:textSize="18sp"
         android:textStyle="bold" />
 
-    <include layout="@layout/modelo_meditar_fragment" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/idFragMeditar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="2sp" />
 
 
 </LinearLayout>
