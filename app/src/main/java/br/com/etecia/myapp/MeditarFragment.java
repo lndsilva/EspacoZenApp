@@ -3,6 +3,7 @@ package br.com.etecia.myapp;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.view.LayoutInflater;
@@ -24,8 +25,6 @@ public class MeditarFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_meditar, container, false);
 
         idFragMeditar = view.findViewById(R.id.idFragMeditar);
-
-        AdapterFragMeditar adapterFragMeditar = new AdapterFragMeditar(getContext(),lstMeditar);
 
         lstMeditar = new ArrayList<>();
         lstMeditar.add(
@@ -57,10 +56,13 @@ public class MeditarFragment extends Fragment {
 
         );
 
-        adapterFragMeditar
+        AdapterFragMeditar adapterFragMeditar = new AdapterFragMeditar(getContext(), lstMeditar);
 
+        idFragMeditar.setLayoutManager(new LinearLayoutManager(getContext(), LinearLayoutManager.VERTICAL, false));
 
+        idFragMeditar.setHasFixedSize(true);
 
+        idFragMeditar.setAdapter(adapterFragMeditar);
 
 
         return view;
